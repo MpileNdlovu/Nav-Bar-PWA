@@ -1,0 +1,112 @@
+* {
+  font-family: 'Soro', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #000;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw - 1000px) / 2);
+  z-index: 10;
+}
+
+.navlink {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+}
+
+.navlink:focus {
+  color: #15cdfc;
+}
+
+.icon {
+  display: none;
+  color: #fff;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: -24px;
+}
+
+#Button {
+  border-radius: 4px;
+  background: #256ce1;
+  padding: 10px 22px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  height: 2.5rem;
+  margin-top: 0.6rem;
+}
+
+#Button:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+  color: #010606;
+}
+
+.Button {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+  background-color: #000;
+}
+
+.dropdown {
+  display: none;
+}
+
+@media screen and (max-width: 780px) {
+  .icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 75%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .Button {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #000;
+    height: 80vh;
+    margin-top: 72px;
+    margin-left: -120px;
+    align-items: center;
+    opacity: 0.8;
+  }
+
+  #navlink {
+    margin: 0;
+    height: 70px;
+  }
+
+  .logo {
+    color: #15cdfc;
+  }
+}
