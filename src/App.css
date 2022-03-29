@@ -28,6 +28,10 @@
   color: #15cdfc;
 }
 
+.navlink:hover {
+  color: #15cdfc;
+}
+
 .icon {
   display: none;
   color: #fff;
@@ -66,7 +70,7 @@
   background-color: #000;
 }
 
-.dropdown {
+.dropdown, .nav-menu {
   display: none;
 }
 
@@ -94,7 +98,7 @@
     flex-direction: column;
     width: 100%;
     background-color: #000;
-    height: 80vh;
+    height: 100vh;
     margin-top: 72px;
     margin-left: -120px;
     align-items: center;
@@ -104,6 +108,10 @@
   #navlink {
     margin: 0;
     height: 70px;
+  }
+
+  #navlink:hover {
+    color: #15cdfc;
   }
 
   .logo {

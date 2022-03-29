@@ -1,9 +1,10 @@
 import React from 'react';
+import './pageStyles.css'
 
 const SignUp = () => {
   return (
-    <div>
-        <h1>SignUp</h1>
+    <div className='container1'>
+        
     </div>
   )
 }
