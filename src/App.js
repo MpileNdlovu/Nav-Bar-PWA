@@ -7,6 +7,7 @@ import SignUp from './Pages/SignUp';
 import About from './Pages/About';
 import Services from './Pages/Services';
 import Contacts from './Pages/Contact';
+import PasswordReset from './Pages/PasswordReset';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         </Route>         
         <Route path='/sign-up' element={<SignUp />} />
         <Route path='/sign-in' element={<SignIn />} />         
+        <Route path='/forgot-password' element={<PasswordReset />} />         
        </Routes>
     </BrowserRouter>
   );
