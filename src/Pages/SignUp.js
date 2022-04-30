@@ -21,7 +21,7 @@ const SignUp = () => {
           </label>
           <label className='labels'>
             <h5>Email:</h5>
-            <input type='text' className='inputs'/>
+            <input type='email' className='inputs'/>
           </label>
           <label className='labels'>
             <h5>Password:</h5>
@@ -32,7 +32,7 @@ const SignUp = () => {
             <input type='password' className='inputs'/>
           </label>
           <label className='labels'>
-            <input type='button' value='REGISTER' id='registerbtn'/>            
+            <input type='submit' value='REGISTER' id='registerbtn'/>            
           </label>          
         </form>        
       </div>
